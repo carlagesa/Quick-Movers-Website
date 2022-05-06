@@ -1,0 +1,101 @@
+
+
+*{
+    border: 2px solid red;
+}
+.navbar{
+    margin-left: 550px;
+    padding-top: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 85px;
+}
+.section1{
+    background-image: url(../images/moving\ 1.png);
+   background-size: cover;
+   width: 90%;
+   height: 100vh;
+   margin-left: 85px;
+   
+}
+.buttonv1{
+    margin-left: 30px;
+}
+.btn1{
+    background-color: yellow;
+}
+.btn2{
+    background-color: black;
+    color: white;
+}
+.yellowtext{
+    color: yellow;
+    font-size: xx-large;
+    padding-left: 35px;
+    
+}
+.whitetext{
+    color: white;
+    padding-left: 35px;
+}
+.img1{
+    width: 310px;
+    padding-left: 85px;
+    margin-top: -165px;
+}
+.h3righttext {
+    padding-left: 500px;
+    padding-top: 39px;
+}
+
+.righttext {
+    padding-left: 500px;
+    padding-top: 39px;
+    padding-bottom: -30px;
+}
+.buttonv2{
+    margin-left: 500px;
+}
+.topmoversimg{
+    width: 190px;
+}
+.cards{
+    background-color: aquamarine;
+    width: 40px;
+}
+
+.righttext{
+    padding-top: 60px;
+    margin-left: 400px;
+    padding-left:90px ;
+}
+
+.leftimg{
+    width: 350px;
+    margin-top: -195px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+.buttonv2{
+    margin-left: 0px;
+    color: white;
+    background-color: black;
+}
+.cardimages{
+    margin-left: 150px;
+    margin-bottom: 22px;
+}
+.cards{
+    background-color: aqua;
+    width: 212px;
+    height: 260px;
+    display: inline-block;
+margin-left: 30px;
+border-radius: 11px;
+}
+.topmoverspics{
+    width: 210px;
+   
+}
