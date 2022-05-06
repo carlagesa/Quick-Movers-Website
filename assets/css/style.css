@@ -1,52 +1,63 @@
-body{
+body {
     scroll-behavior: smooth;
+    margin: -1px 20px;
 }
 
-*{
+* {
     border: 2px solid red;
 }
-.navbar{
+
+.navbar {
     margin-left: 550px;
     padding-top: 50px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
     padding-left: 85px;
 }
-.section1{
+
+.section1 {
     background-image: url(../images/moving\ 1.png);
-   background-size: cover;
-   width: 90%;
-   height: 100vh;
-   margin-left: 85px;
-   
+    background-size: cover;
+    width: 90%;
+    height: 100vh;
+    margin-left: 85px;
+
 }
-.buttonv1{
+
+.buttonv1 {
     margin-left: 30px;
 }
-.btn1{
+
+.btn1 {
     background-color: yellow;
 }
-.btn2{
+
+.btn2 {
     background-color: black;
     color: white;
 }
-.yellowtext{
+
+.yellowtext {
     color: yellow;
     font-size: xx-large;
     padding-left: 35px;
-    
+
 }
-.whitetext{
+
+.whitetext {
     color: white;
     padding-left: 35px;
 }
-.img1{
+
+.img1 {
     width: 310px;
     padding-left: 85px;
     margin-top: -165px;
 }
+
 .h3righttext {
     padding-left: 500px;
     padding-top: 39px;
@@ -57,47 +68,103 @@ a{
     padding-top: 39px;
     padding-bottom: -30px;
 }
-.buttonv2{
+
+.buttonv2 {
     margin-left: 500px;
 }
-.topmoversimg{
+
+.topmoversimg {
     width: 190px;
 }
-.cards{
+
+.iconplace {
+    width: 80px;
+    display: inline-block;
+    height: 20px;
+    margin-top: -70px;
+}
+
+.mvs {
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.cards {
     background-color: aquamarine;
     width: 40px;
 }
 
-.righttext{
+.righttext {
     padding-top: 60px;
     margin-left: 410px;
-    padding-left:200px ;
+    padding-left: 200px;
 }
 
-.leftimg{
+.leftimg {
     width: 430px;
     margin-top: -195px;
     padding-left: 80px;
     padding-bottom: 30px;
 }
-.buttonv2{
+
+.buttonv2 {
     margin-left: 0px;
     color: white;
     background-color: black;
 }
-.cardimages{
+
+.cardimages {
     margin-left: 300px;
     margin-bottom: 22px;
 }
-.cards{
+
+.cards {
     background-color: aqua;
     width: 262px;
     height: 260px;
     display: inline-block;
-margin-left: 30px;
-border-radius: 11px;
+    margin-left: 30px;
+    border-radius: 11px;
 }
-.topmoverspics{
+
+.topmoverspics {
     width: 260px;
-   
+
+}
+
+.footer {
+    width: 100%;
+    height: 340px;
+    color: white;
+    background-color: black;
+}
+
+.icons {
+    width: 20px;
+}
+
+h6 {
+    padding-left: 90px;
+}
+
+.columnheading {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+
+.columnheading1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: -600px;
+    margin-left: 800px;
+    margin-top: -157px;
+}
+
+.columnheading3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: -600px;
+    margin-left: 1100px;
+    margin-top: -157px;
 }
