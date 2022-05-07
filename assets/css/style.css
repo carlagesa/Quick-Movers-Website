@@ -1,6 +1,7 @@
 body {
     scroll-behavior: smooth;
     margin: -1px 20px;
+    background-color: whitesmoke;
 }
 
 * {
@@ -138,15 +139,25 @@ a {
     color: white;
     background-color: black;
 }
+.iconpacket{
+    margin-left: 70px;
+    margin-right:1200px;
+    padding-left: 100px;
+    padding-top: 0px;
+}
 
 .icons {
-    width: 20px;
+    width: 23px;
+    padding-left: 10px;
 }
 
 h6 {
     padding-left: 90px;
 }
-
+h4{
+    font-size: x-large;
+    padding-left: 150px;
+}
 .columnheading {
     display: flex;
     flex-direction: column;
@@ -167,4 +178,105 @@ h6 {
     padding-left: -600px;
     margin-left: 1100px;
     margin-top: -157px;
+}
+
+/* Start of Movers CSS */
+.moverssection{
+    background-color: black;
+    height: 120px;
+}
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 650px;
+    margin-bottom: -15px;
+}
+
+.moversbuttonv1{
+    padding-left: 100px;
+}
+.navbar3{
+    color: white;
+    
+}
+.modernhouse{
+    padding-left: 140px;
+    padding-top: 15px;
+    
+}
+.adress{
+    font-size: x-small;
+    padding-left: 140px;
+    margin-top: -14px;
+}
+.price{
+    margin-left: 1300px;
+    margin-top: -35px;
+    font-size: x-large;
+}
+.pricetag{
+    margin-left: 1300px;
+    margin-top: -25px;
+    font-size: small;
+}
+.propertyimg{
+    width: 620px;
+    padding-top: 40px;
+
+}
+.propertyinfo{
+    margin-left: 670px;
+    margin-top: -460px;
+}
+.card{
+    width: 300px;
+    height: 460px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.borderbox{
+    width: 240px;
+    height: 60px;
+    background-color: gray;
+    margin-left: 26px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.profilephoto{
+    width: 35px;
+    height: 32px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.username{
+    margin-left: 60px;
+    margin-top: -32px;
+}
+.inputs{
+    width: 240px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 08px;
+
+}
+.inputsodd{
+    width: 240px;
+    height: 85px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 08px;
+
+}
+::placeholder{
+    color: black;
+}
+.moversbuttonv2{
+    width: 240px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+    background-color: black;
 }
