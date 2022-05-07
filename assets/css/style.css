@@ -1,11 +1,17 @@
 body {
     /* scroll-behavior: smooth;
     margin: -1px 20px; */
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
 }
 
 /* * {
     border: 2px solid red;
 } */
+
+button {
+    cursor: pointer;
+}
 
 .navbar {
     margin-left: 550px;
@@ -43,6 +49,8 @@ a {
 .yellowtext {
     color: yellow;
     font-size: xx-large;
+    padding-top: 90px;
+    margin-left: 20px;
     padding-left: 35px;
 
 }
@@ -50,6 +58,8 @@ a {
 .whitetext {
     color: white;
     padding-left: 35px;
+    margin-left: 20px;
+    font-size: large;
 }
 
 .img1 {
@@ -70,7 +80,11 @@ a {
 }
 
 .buttonv2 {
+    width: 110px;
+    height: 37px;
     margin-left: 500px;
+    color: yellow;
+    border-radius: 0 11px 0 0;
 }
 
 .topmoversimg {
@@ -78,10 +92,13 @@ a {
 }
 
 .iconplace {
-    width: 80px;
+    width: 82px;
     display: inline-block;
-    height: 20px;
-    margin-top: -70px;
+    height: 22px;
+    margin-top: -68px;
+    margin-left: 5px;
+    margin-right: -9.5px;
+    border: 1px solid gray;
 }
 
 .mvs {
@@ -90,7 +107,9 @@ a {
 }
 
 .cards {
-    background-color: aquamarine;
+    background: #ffffff;
+    box-shadow: 12px 12px 24px #bebebe,
+        -12px -12px 24px #ffffff;
     width: 40px;
 }
 
@@ -116,10 +135,12 @@ a {
 .cardimages {
     margin-left: 300px;
     margin-bottom: 22px;
+    border-radius: 15px;
+
 }
 
 .cards {
-    background-color: aqua;
+
     width: 262px;
     height: 260px;
     display: inline-block;
@@ -136,11 +157,22 @@ a {
     width: 100%;
     height: 340px;
     color: white;
-    background-color: black;
+    background: rgb(0,0,0);
+background: linear-gradient(40deg, rgba(0,0,0,1) 60%, rgba(55,41,4,1) 100%);
 }
-
+.bottomborder{
+    border-bottom: 0.2px solid white;
+    width: 140vh;
+    margin-left: 150px;
+    margin-top: 50px;
+}
 .icons {
     width: 20px;
+   padding-left: 15px;
+}
+.iconpacket{
+    padding-left: 150px;
+    padding-top: 45px;
 }
 
 h6 {
@@ -150,6 +182,9 @@ h6 {
 h4 {
     font-size: x-large;
     padding-left: 150px;
+}
+.move{
+    padding-top: 50px;
 }
 
 .columnheading {
@@ -187,9 +222,11 @@ h4 {
     padding-left: 650px;
     margin-bottom: -15px;
 }
+
 .moverslinks {
     margin-top: 15px;
 }
+
 /* .moversbuttontop {
     color: aqua;
 } */
@@ -356,10 +393,12 @@ h4 {
 .descriptiontext1 {
     padding-left: 20px;
 }
-.features{
+
+.features {
     margin-left: -540px;
     margin-top: 30px;
 }
+
 .featureslist {
     display: flex;
 
@@ -378,49 +417,55 @@ h4 {
     padding-left: 20px;
 
 }
-.check{
-    width:20px;
+
+.check {
+    width: 20px;
     margin-bottom: -9px;
     margin-left: -20px;
 }
-.similarcards{
+
+.similarcards {
     width: 40vh;
     height: 45vh;
     border: 2px solid black;
     margin-left: 40px;
 }
 
-.similarlistings{
+.similarlistings {
     display: flex;
     margin-left: -580px;
     margin-top: 19px;
     overflow: hidden;
 }
 
-.similarimgs{
+.similarimgs {
     width: 40vh;
     overflow: hidden;
-    
+
 }
-.similarimgsodd{
+
+.similarimgsodd {
     width: 30vh;
     height: 32vh;
     overflow: hidden;
-    padding-left:-1px;
+    padding-left: -1px;
 }
-.similarcardsodd{
+
+.similarcardsodd {
     width: 30.1vh;
     height: 45vh;
     margin-left: 40px;
     border: 2px solid black;
 }
+
 /* Footer CSS */
 .moversfooter {
     height: 340px;
     color: white;
     margin-left: -85vh;
     margin-top: 25px;
-    background-color: black;
+    background: rgb(0,0,0);
+background: linear-gradient(40deg, rgba(0,0,0,1) 60%, rgba(55,41,4,1) 100%);
 }
 
 .icons {
@@ -448,7 +493,8 @@ h4 {
     flex-direction: column;
     padding-left: -600px;
     margin-left: 700px;
-    margin-top: -132px; display: flex;
+    margin-top: -132px;
+    display: flex;
     flex-direction: column;
     padding-left: -600px;
     margin-left: 700px;
