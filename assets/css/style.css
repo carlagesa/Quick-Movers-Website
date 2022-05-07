@@ -159,7 +159,7 @@ a {
     height: 340px;
     color: white;
     background: rgb(0,0,0);
-background: linear-gradient(40deg, rgba(0,0,0,1) 60%, rgba(55,41,4,1) 100%);
+background: linear-gradient(20deg, rgba(0,0,0,1) 35%, rgba(55,41,4,1) 100%);
 }
 .bottomborder{
     border-bottom: 0.2px solid white;
