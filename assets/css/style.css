@@ -1,11 +1,11 @@
 body {
-    scroll-behavior: smooth;
-    margin: -1px 20px;
+    /* scroll-behavior: smooth;
+    margin: -1px 20px; */
 }
 
-* {
+/* * {
     border: 2px solid red;
-}
+} */
 
 .navbar {
     margin-left: 550px;
@@ -156,14 +156,15 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-left: 400px;
+    margin-top: -20px;
 }
 
 .columnheading1 {
     display: flex;
     flex-direction: column;
     padding-left: -600px;
-    margin-left: 800px;
-    margin-top: -157px;
+    margin-left: 700px;
+    margin-top: -132px;
 }
 
 .columnheading3 {
@@ -171,7 +172,7 @@ h4 {
     flex-direction: column;
     padding-left: -600px;
     margin-left: 1100px;
-    margin-top: -157px;
+    margin-top: -132px;
 }
 
 /* Start of Movers CSS */
@@ -186,10 +187,12 @@ h4 {
     padding-left: 650px;
     margin-bottom: -15px;
 }
-
-.moversbuttonv1 {
-    padding-left: 100px;
+.moverslinks {
+    margin-top: 15px;
 }
+/* .moversbuttontop {
+    color: aqua;
+} */
 
 .navbar3 {
     color: white;
@@ -339,7 +342,8 @@ h4 {
     background-color: aqua;
     width: 665px;
     height: 35vh;
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-left: -540px;
     border-radius: 10px;
 }
 
@@ -352,7 +356,10 @@ h4 {
 .descriptiontext1 {
     padding-left: 20px;
 }
-
+.features{
+    margin-left: -540px;
+    margin-top: 30px;
+}
 .featureslist {
     display: flex;
 
@@ -377,7 +384,7 @@ h4 {
     margin-left: -20px;
 }
 .similarcards{
-    width: 41vh;
+    width: 40vh;
     height: 45vh;
     border: 2px solid black;
     margin-left: 40px;
@@ -385,21 +392,73 @@ h4 {
 
 .similarlistings{
     display: flex;
-    margin-left: -44px;
+    margin-left: -580px;
     margin-top: 19px;
+    overflow: hidden;
 }
+
 .similarimgs{
     width: 40vh;
+    overflow: hidden;
     
 }
 .similarimgsodd{
-    width: 19vh;
+    width: 30vh;
     height: 32vh;
+    overflow: hidden;
     padding-left:-1px;
 }
 .similarcardsodd{
-    width: 20vh;
+    width: 30.1vh;
     height: 45vh;
     margin-left: 40px;
     border: 2px solid black;
+}
+/* Footer CSS */
+.moversfooter {
+    height: 340px;
+    color: white;
+    margin-left: -85vh;
+    margin-top: 25px;
+    background-color: black;
+}
+
+.icons {
+    width: 20px;
+}
+
+h6 {
+    padding-left: 90px;
+}
+
+h4 {
+    font-size: x-large;
+    padding-left: 150px;
+}
+
+.moverscolumnheading {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+
+.moverscolumnheading1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: -600px;
+    margin-left: 700px;
+    margin-top: -132px; display: flex;
+    flex-direction: column;
+    padding-left: -600px;
+    margin-left: 700px;
+    margin-top: -132px;
+}
+
+.moverscolumnheading3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: -600px;
+    margin-left: 1100px;
+    margin-top: -132px;
 }
