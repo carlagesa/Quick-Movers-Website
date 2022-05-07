@@ -146,10 +146,12 @@ a {
 h6 {
     padding-left: 90px;
 }
-h4{
+
+h4 {
     font-size: x-large;
     padding-left: 150px;
 }
+
 .columnheading {
     display: flex;
     flex-direction: column;
@@ -173,60 +175,70 @@ h4{
 }
 
 /* Start of Movers CSS */
-.moverssection{
+.moverssection {
     background-color: black;
     height: 120px;
 }
-.navbar2{
+
+.navbar2 {
     display: flex;
     flex-direction: row;
     padding-left: 650px;
     margin-bottom: -15px;
 }
 
-.moversbuttonv1{
+.moversbuttonv1 {
     padding-left: 100px;
 }
-.navbar3{
+
+.navbar3 {
     color: white;
-    
+
 }
-.modernhouse{
+
+.modernhouse {
     padding-left: 140px;
     padding-top: 15px;
-    
+
 }
-.adress{
+
+.adress {
     font-size: x-small;
     padding-left: 140px;
     margin-top: -14px;
 }
-.price{
+
+.price {
     margin-left: 1300px;
     margin-top: -35px;
     font-size: x-large;
 }
-.pricetag{
+
+.pricetag {
     margin-left: 1300px;
     margin-top: -25px;
     font-size: small;
 }
-.propertyimg{
-    width: 620px;
+
+.propertyimg {
+    width: 660px;
     padding-top: 40px;
 
 }
-.propertyinfo{
-    margin-left: 670px;
-    margin-top: -460px;
+
+.propertyinfo {
+    margin-left: 699px;
+    margin-top: -472px;
 }
-.card{
+
+.card {
     width: 300px;
     height: 460px;
     background-color: aquamarine;
     border-radius: 10px;
 }
-.borderbox{
+
+.borderbox {
     width: 240px;
     height: 60px;
     background-color: gray;
@@ -234,18 +246,21 @@ h4{
     margin-top: 10px;
     border-radius: 10px;
 }
-.profilephoto{
+
+.profilephoto {
     width: 35px;
     height: 32px;
     border-radius: 50%;
     margin-left: 10px;
     margin-top: 7px;
 }
-.username{
+
+.username {
     margin-left: 60px;
     margin-top: -32px;
 }
-.inputs{
+
+.inputs {
     width: 240px;
     height: 45px;
     margin-left: 25px;
@@ -253,7 +268,8 @@ h4{
     border-radius: 08px;
 
 }
-.inputsodd{
+
+.inputsodd {
     width: 240px;
     height: 85px;
     margin-left: 25px;
@@ -261,14 +277,129 @@ h4{
     border-radius: 08px;
 
 }
-::placeholder{
+
+::placeholder {
     color: black;
 }
-.moversbuttonv2{
+
+.moversbuttonv2 {
     width: 240px;
     height: 50px;
     margin-left: 25px;
     margin-top: 15px;
     color: white;
     background-color: black;
+}
+
+.housepicsoverall {
+    display: flex;
+    margin-left: -725px;
+
+}
+
+.housepics {
+    width: 75px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.details {
+    width: 81vh;
+    height: 15vh;
+    border: 2px solid green;
+    margin-left: -65vh;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.detailedinfo {
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid yellow;
+    height: 60px;
+    width: 100%;
+    margin-top: 1px;
+    margin-left: -2px;
+}
+
+.moversicons {
+    display: flex;
+}
+
+.iconborders {
+    width: 132px;
+    height: 50px;
+    border: 2px solid blue;
+    margin-top: -20px;
+}
+
+.description {
+    color: black;
+    background-color: aqua;
+    width: 665px;
+    height: 35vh;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.descriptiontext {
+    padding-left: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.descriptiontext1 {
+    padding-left: 20px;
+}
+
+.featureslist {
+    display: flex;
+
+    border-radius: 10px;
+    margin-top: -30px;
+}
+
+.featurestext {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.featureslisting {
+    list-style-type: none;
+    margin-left: 30px;
+    padding-left: 20px;
+
+}
+.check{
+    width:20px;
+    margin-bottom: -9px;
+    margin-left: -20px;
+}
+.similarcards{
+    width: 41vh;
+    height: 45vh;
+    border: 2px solid black;
+    margin-left: 40px;
+}
+
+.similarlistings{
+    display: flex;
+    margin-left: -44px;
+    margin-top: 19px;
+}
+.similarimgs{
+    width: 40vh;
+    
+}
+.similarimgsodd{
+    width: 19vh;
+    height: 32vh;
+    padding-left:-1px;
+}
+.similarcardsodd{
+    width: 20vh;
+    height: 45vh;
+    margin-left: 40px;
+    border: 2px solid black;
 }
