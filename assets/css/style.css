@@ -52,7 +52,7 @@ a {
     padding-top: 90px;
     margin-left: 20px;
     padding-left: 35px;
-
+    font-stretch: expanded
 }
 
 .whitetext {
@@ -567,8 +567,7 @@ background: linear-gradient(30deg, rgb(221, 189, 7) 10%, rgb(29, 21, 1) 100%);
     margin-left: -104vh;
     margin-top: 25px;
     background: rgb(0,0,0);
-background: linear-gradient(40deg, rgba(0,0,0,1) 60%, rgba(55,41,4,1) 100%);
-}
+background: linear-gradient(20deg, rgba(0,0,0,1) 35%, rgba(55,41,4,1) 100%);}
 .moversbottomborder{
     border-bottom: 0.1px solid grey;
     width: 140vh;
