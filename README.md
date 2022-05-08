@@ -1,5 +1,5 @@
 
-# WatchFlix Movie Trailer Website
+# Quick Movers Website
 
 Quick Movers is a website designed to make moving into a new house 
 an easy task.Quick Movers offers proffessional and affordable 
