@@ -159,25 +159,28 @@ a {
     width: 100%;
     height: 370px;
     color: white;
-    background: rgb(0,0,0);
-background: linear-gradient(20deg, rgba(0,0,0,1) 35%, rgba(55,41,4,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(20deg, rgba(0, 0, 0, 1) 35%, rgba(55, 41, 4, 1) 100%);
 }
 
-.bottomborder{
+.bottomborder {
     border-bottom: 0.1px solid grey;
     width: 140vh;
     margin-left: 150px;
     margin-top: 50px;
 }
+
 .icons {
     width: 20px;
-   padding-left: 15px;
+    padding-left: 15px;
 }
-.iconpacket{
+
+.iconpacket {
     padding-left: 150px;
     padding-top: 45px;
 }
-.iconimg{
+
+.iconimg {
     width: 19px;
     padding-left: 20px;
 }
@@ -190,7 +193,8 @@ h4 {
     font-size: x-large;
     padding-left: 150px;
 }
-.move{
+
+.move {
     padding-top: 50px;
 }
 
@@ -202,7 +206,8 @@ h4 {
     line-height: 1.6;
     font-size: small;
 }
-h5{
+
+h5 {
     margin-left: 83px;
     font-size: larger;
 }
@@ -243,7 +248,8 @@ h5{
 .moverslinks {
     margin-top: 15px;
 }
-.moverslinks:hover{
+
+.moverslinks:hover {
     color: #FFAC12;
 
 }
@@ -296,11 +302,13 @@ h5{
     background: #ffffff;
     box-shadow: 10px 12px 29px #bebebe,
         -12px -12px 24px #ffffff;
-    
+
 }
-.profile{
+
+.profile {
     padding-top: 10px;
 }
+
 .borderbox {
     width: 240px;
     height: 60px;
@@ -323,7 +331,8 @@ h5{
     margin-top: -37px;
     font-size: large;
 }
-.userprofile{
+
+.userprofile {
     color: #FFAC12;
     margin-left: 70px;
     margin-top: -33px;
@@ -366,7 +375,7 @@ h5{
     display: flex;
     margin-left: -720px;
     margin-top: 15px;
-    
+
 }
 
 .housepics {
@@ -374,10 +383,12 @@ h5{
     padding-left: 20px;
     padding-top: 20px;
 }
-.housepics:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+.housepics:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 }
+
 .details {
     width: 81vh;
     height: 15vh;
@@ -396,7 +407,7 @@ h5{
     width: 100%;
     padding-top: 29px;
     margin-left: 25px;
-    
+
 }
 
 .moversicons {
@@ -410,12 +421,14 @@ h5{
     border-bottom-style: none;
     margin-top: -24px;
 }
-.moversiconimg{
+
+.moversiconimg {
     width: 30px;
     padding-left: 35px;
     padding-top: 9px;
 }
-.numbers{
+
+.numbers {
     width: 10px;
     margin-top: -25px;
     margin-left: 80px;
@@ -483,7 +496,7 @@ h5{
     list-style-type: none;
     margin-left: 30px;
     padding-left: 20px;
-    
+
 }
 
 .check {
@@ -491,17 +504,20 @@ h5{
     margin-bottom: -9px;
     margin-left: -20px;
 }
-.linegradient{
+
+.linegradient {
     width: 160px;
     height: 5px;
     border-radius: 10px;
-    background: rgb(0,0,0);
-background: linear-gradient(30deg, rgb(221, 189, 7) 10%, rgb(29, 21, 1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(30deg, rgb(221, 189, 7) 10%, rgb(29, 21, 1) 100%);
 }
-.similarlinegradient{
+
+.similarlinegradient {
     margin-left: -85vh;
 }
-.similartext{
+
+.similartext {
     margin-left: -85vh;
 }
 
@@ -515,14 +531,17 @@ background: linear-gradient(30deg, rgb(221, 189, 7) 10%, rgb(29, 21, 1) 100%);
     box-shadow: 10px 12px 29px #bebebe6c,
         -12px -12px 24px #ffffff;
 }
-.similarname{
+
+.similarname {
     margin-bottom: -32px;
     font-size: large;
     padding-left: 20px;
 }
-.similaricons{
+
+.similaricons {
     display: flex;
 }
+
 .iconbordersforsimilar {
     width: 132px;
     height: 50px;
@@ -530,6 +549,7 @@ background: linear-gradient(30deg, rgb(221, 189, 7) 10%, rgb(29, 21, 1) 100%);
     border-bottom-style: none;
     margin-top: 49px;
 }
+
 .similarlistings {
     display: flex;
     margin-left: -90vh;
@@ -561,14 +581,16 @@ background: linear-gradient(30deg, rgb(221, 189, 7) 10%, rgb(29, 21, 1) 100%);
 
 /* Footer CSS */
 .moversfooter {
-    
+
     height: 390px;
     color: white;
     margin-left: -104vh;
     margin-top: 25px;
-    background: rgb(0,0,0);
-background: linear-gradient(20deg, rgba(0,0,0,1) 35%, rgba(55,41,4,1) 100%);}
-.moversbottomborder{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(20deg, rgba(0, 0, 0, 1) 35%, rgba(55, 41, 4, 1) 100%);
+}
+
+.moversbottomborder {
     border-bottom: 0.1px solid grey;
     width: 140vh;
     margin-left: 150px;
@@ -588,6 +610,7 @@ h4 {
     font-size: x-large;
     padding-left: 150px;
 }
+
 .footerbutton {
     margin-left: 143vh;
     color: black;
@@ -599,13 +622,16 @@ h4 {
     margin-top: -100px;
     margin-bottom: -35px;
 }
-.footertext{
+
+.footertext {
     padding-top: 45px;
     margin-bottom: -25px;
 }
-.whitearrow{
+
+.whitearrow {
     width: 22px;
 }
+
 .moverscolumnheading {
     display: flex;
     flex-direction: column;
