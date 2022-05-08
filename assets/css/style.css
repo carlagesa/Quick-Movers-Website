@@ -23,7 +23,6 @@ a {
     text-decoration: none;
     padding-left: 85px;
 }
-
 .section1 {
     background-image: url(../images/moving\ 1.png);
     background-size: cover;
@@ -93,13 +92,13 @@ a {
 
 .iconplace {
     width: 95px;
-    height: 34px;
+    height: 36px;
     display: inline-block;
-    margin-top: 1px;
+    margin-top: -1px;
     margin-left: 5px;
     margin-right: -9.5px;
-    border-right-style: none;
-    border: 0.5px solid rgba(153, 151, 151, 0.267);
+    border: 1px solid rgba(150, 150, 150, 0.295);
+    border-bottom-style: none;
 }
 
 .mvs {
@@ -154,6 +153,10 @@ a {
     width: 300px;
 
 }
+.topmoverspicsodd{
+    width: 300px;
+    height: 236px;
+}
 
 .footer {
     width: 100%;
@@ -183,6 +186,7 @@ a {
 .iconimg {
     width: 19px;
     padding-left: 20px;
+    padding-top: 10px;
 }
 
 h6 {
