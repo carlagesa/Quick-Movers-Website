@@ -14,14 +14,14 @@ button {
 }
 
 .navbar {
-    margin-left: 550px;
+    margin-left: 500px;
     padding-top: 50px;
 }
 
 a {
     color: white;
     text-decoration: none;
-    padding-left: 85px;
+    padding-left: 80px;
 }
 .section1 {
     background-image: url(../images/moving\ 1.png);
